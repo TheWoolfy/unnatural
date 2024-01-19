@@ -106,7 +106,7 @@ local ClickMaxUpgrade = UpgradeStuff:CreateToggle("Click Max Upgrade", function(
 
                         v.Variables.CostScaling.Value = 0
                         v.Variables.BaseCost.Value = 0
-                        v.Variables.Currency.Value = "planetarium"
+                        v.Variables.Currency.Value = "unnaturalgrass"
                     end
                     
                     task.wait(0.1)
